@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.head{
+    height: 90px;
+    background-color: rgba(0, 0, 0, 0.788);
+}
+
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
+    width: 150px;
+}
+
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    color: whitesmoke;
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+.head-text-inner{
+    margin-top: 180px;
+    margin-left: 10px;
+    float: left;
+}
+
+.head-text-inner h1{
+    font-weight: 100;
+    font-size: 70px;
+}
+
+.head-text-inner span{
+    font-weight: 600;
+}
+
+.head-text-inner h3{
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+.head-text-inner p{
+    margin-top: 40px;
+    margin-left: 10px;
+    line-height: 20pt;
+}
+
+.head-img img{
+    width: 400px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+
+
+
+
+
+.about-img img{
+    width: 400px;
+    margin-top: 130px;
+    margin-left: 40px;
+    float: left;
+}
+
+.about-me-text{
+    width: 47%;
+    margin-left: 5%;
+    padding: 2%;
+    float: right;
+    padding-top: 180px;
+    
+}
+
+.about-me-text h1{
+    font-size: 60px;
+}
+
+.about-me-text h3{
+    font-size: 30px;
+}
+
+.resume{
+    color: whitesmoke;
+    padding: 10px 25px;
+    font-size: 26px;
+    background-color: black;
+    transition: .5s;
+}
+
+.resume:hover{
+    font-weight: 600;
+    color: black;
+    background-color: white;
+    border: 5px solid red;
+}
+
+
+
+
+
+
+.portfolio h1{
+    font-size: 60px;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.port-center{
+    justify-content: center;
+    justify-content: space-around;
+    display: flex;
+    margin: 0 auto;
+}
+
+.work{
+    width: 370px;
+    border-radius: 20px;
+}
+
+.work-1:hover img{
+    transform: scale(1.1); 
+    box-shadow: 5px 5px 10px aqua;
+    transition: transform 1s; 
+}
+
+
+
+
+
+
+
+
+
+.contact h1{
+    padding-top: 200px;
+    font-size: 60px;
+    text-align: center;
+}
+
+.contact-form{
+    padding-left: 10px;
+    padding-top: 30px;
+    margin-left: 400px;
+    width: 440px;
+    height: 480px;
+    background-color: whitesmoke;
+}
+
+::placeholder{
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+input{ 
+    height: 30px;
+    width: 350px;
+}
+
+.submit{
+    color: whitesmoke;
+    padding: 10px 180px;
+    font-size: 18px;
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+.footer{
+    font-size: 18px;
+    padding-top: 110px;
+    text-align: center;
+}
+
